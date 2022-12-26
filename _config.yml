@@ -22,9 +22,10 @@
 host: 0.0.0.0
 port: 5000
 
-title: To record my thoughts for long term good
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "http://chopin.fm" # the base hostname & protocol for your site, e.g. http://example.com
+title: Recording 
+description: To clean up my thoughts for long term good
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://chopin.fm" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima

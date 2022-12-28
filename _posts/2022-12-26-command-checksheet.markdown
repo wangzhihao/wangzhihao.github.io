@@ -13,6 +13,11 @@ categories: Computer Science
 ### [gdb][gdb]
 
 [gdb]: https://sourceware.org/gdb/current/onlinedocs/gdb/
+1. [GDB: Debug native part of java application (C/C++ libraries and JDK)][gdb-java]
+1. [GDB Internals from The Architecture of Open Source Applications][gdb-internals]
+
+[gdb-java]: https://medium.com/@pirogov.alexey/gdb-debug-native-part-of-java-application-c-c-libraries-and-jdk-6593af3b4f3f
+[gdb-internals]: https://www.aosabook.org/en/gdb.html 
 
 ### [java][java]
 

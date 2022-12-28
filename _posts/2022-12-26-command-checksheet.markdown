@@ -3,6 +3,17 @@ layout: post
 title:  "Command Check Sheet"
 categories: Computer Science
 ---
+* TOC
+{:toc}
+
+### [Eclispe Memory Analyzer (MAT)][mat-doc]
+
+[mat-doc]: http://help.eclipse.org/index.jsp?topic=/org.eclipse.mat.ui.help/welcome.html
+
+### [gdb][gdb]
+
+[gdb]: https://sourceware.org/gdb/current/onlinedocs/gdb/
+
 ### [java][java]
 
 1. [What is Java Batch Mode: -Xbatch?][-xbatch]
@@ -13,6 +24,7 @@ categories: Computer Science
 1. [ASM is an all purpose Java bytecode manipulation and analysis framework][asm]
 1. [Java vs. Native Agents – And How It Affects Your Code][agents]
 1. [Collecting and reading G1 garbage collector logs][g1gc]
+1. [What is Unlock Diagnostic VM Options: -XX:+UnlockDiagnosticVMOptions?][unlock]
 
 
 
@@ -25,3 +37,5 @@ categories: Computer Science
 [asm]: https://asm.ow2.io/
 [agents]: https://www.overops.com/blog/double-agent-java-vs-native-agents
 [g1gc]: https://www.redhat.com/en/blog/collecting-and-reading-g1-garbage-collector-logs-part-2
+[unlock]: https://answers.ycrash.io/question/what-is-unlock-diagnostic-vm-options--xxunlockdiagnosticvmoptions?q=701
+

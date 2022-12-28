@@ -27,10 +27,12 @@ description: To clean up my thoughts for long term good
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chopin.fm" # the base hostname & protocol for your site, e.g. http://example.com
 
+markdown: kramdown
+
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+# plugins:
+#  - jekyll-toc
 
 # Exclude from processing.
 # The following items will not be processed, by default.

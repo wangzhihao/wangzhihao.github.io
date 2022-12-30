@@ -15,9 +15,18 @@ categories: Computer Science
 [gdb]: https://sourceware.org/gdb/current/onlinedocs/gdb/
 1. [GDB: Debug native part of java application (C/C++ libraries and JDK)][gdb-java]
 1. [GDB Internals from The Architecture of Open Source Applications][gdb-internals]
+1. [ptrace][ptrace]
+
+Some interesting commands:
+
+```sh
+gdb --batch --pid 51689 -ex "dump memory test.dum 0x7ff874000000  0x7ff87400ffff"
+
+```
 
 [gdb-java]: https://medium.com/@pirogov.alexey/gdb-debug-native-part-of-java-application-c-c-libraries-and-jdk-6593af3b4f3f
 [gdb-internals]: https://www.aosabook.org/en/gdb.html 
+[ptrace]: https://man7.org/linux/man-pages/man2/ptrace.2.html
 
 ### [java][java]
 
@@ -30,6 +39,8 @@ categories: Computer Science
 1. [Java vs. Native Agents – And How It Affects Your Code][agents]
 1. [Collecting and reading G1 garbage collector logs][g1gc]
 1. [What is Unlock Diagnostic VM Options: -XX:+UnlockDiagnosticVMOptions?][unlock]
+1. [JVM Anatomy Quark #12: Native Memory Tracking][shipilev-nmt]
+1. [It's all about buffers: zero-copy, mmap and Java NIO][direct-memory]
 
 
 
@@ -43,4 +54,6 @@ categories: Computer Science
 [agents]: https://www.overops.com/blog/double-agent-java-vs-native-agents
 [g1gc]: https://www.redhat.com/en/blog/collecting-and-reading-g1-garbage-collector-logs-part-2
 [unlock]: https://answers.ycrash.io/question/what-is-unlock-diagnostic-vm-options--xxunlockdiagnosticvmoptions?q=701
+[shipilev-nmt]: https://shipilev.net/jvm/anatomy-quarks/12-native-memory-tracking/
+[direct-memory]: https://xunnanxu.github.io/2016/09/10/It-s-all-about-buffers-zero-copy-mmap-and-Java-NIO/ 
 

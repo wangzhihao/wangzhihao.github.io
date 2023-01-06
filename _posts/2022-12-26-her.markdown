@@ -17,11 +17,13 @@ categories: her
     1. [Budesonide (布地奈德)][Budesonide]
 1. [Bipolar disorder][bipolar]
     1. [Agomelatine (阿戈美拉汀)][Agomelatine] 已停药
+    1. [The Psychology of Bipolar Disorders][psychology-bipolar]
 
 [cva]: https://www.webmd.com/asthma/guide/cough-variant-asthma
 [Budesonide]: https://en.wikipedia.org/wiki/Budesonide
 [bipolar]: https://en.wikipedia.org/wiki/Bipolar_disorder 
 [Agomelatine]: https://en.wikipedia.org/wiki/Agomelatine
+[psychology-bipolar]: https://psykologtidsskriftet.no/2007/05/psychology-bipolar-disorders
 
 
 ## 医生

@@ -57,3 +57,6 @@ gdb --batch --pid 51689 -ex "dump memory test.dum 0x7ff874000000  0x7ff87400ffff
 [shipilev-nmt]: https://shipilev.net/jvm/anatomy-quarks/12-native-memory-tracking/
 [direct-memory]: https://xunnanxu.github.io/2016/09/10/It-s-all-about-buffers-zero-copy-mmap-and-Java-NIO/ 
 
+### [go][godoc]
+
+[godoc]: https://go.dev/doc/

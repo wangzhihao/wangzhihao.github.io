@@ -6,6 +6,7 @@ categories: her
 
 ## Psychology 
 
+1. 她缺爱，所以选择困难，所以讨好别人。
 1. 要让她快乐，她生病了，情绪不好会成千上万倍的放大加重身体的不舒服。有时候可能不是我的问题，但是需要宠着她才能让她身体好起来。
 1. 共情，一个基本功技巧就是去确认对方的谈话内容，感受。简单的重复对方的对话。
 1. 不要评判, 这样就大概率不会有争吵。
@@ -14,10 +15,14 @@ categories: her
 ## Pain 
 1. [Cough-variant asthma][cva] 
     1. [Budesonide (布地奈德)][Budesonide]
-
+1. [Bipolar disorder][bipolar]
+    1. [Agomelatine (阿戈美拉汀)][Agomelatine] 已停药
 
 [cva]: https://www.webmd.com/asthma/guide/cough-variant-asthma
 [Budesonide]: https://en.wikipedia.org/wiki/Budesonide
+[bipolar]: https://en.wikipedia.org/wiki/Bipolar_disorder 
+[Agomelatine]: https://en.wikipedia.org/wiki/Agomelatine
+
 
 ## 医生
 

@@ -1,0 +1,156 @@
+---
+layout: post
+title:  "vim"
+categories: development 
+---
+
+# Scala Development Setup for Vim
+
+## **Section 1. Add IDE-like features**
+
+Add IDE-like features like auto complete, go to definition, or documentation on hover to Vim.
+
+[vim-lsp](https://github.com/prabirshrestha/vim-lsp) is a client which implements [Language Server Protocol](https://github.com/Microsoft/language-server-protocol) plugin for vim. [Metals](https://github.com/scalameta/metals/) is the Scala language server we picked. The following describe how to setup a vim-lsp client with a Metals server to support Scala programming inside Vim.
+
+1. You can setup a simple Scala project with maven for testing purpose described in[this guide](https://docs.scala-lang.org/tutorials/scala-with-maven.html) as follows.
+
+```
+`mvn archetype:generate -DarchetypeGroupId=net.alchim31.maven -DarchetypeArtifactId=scala-archetype-simple`
+```
+
+1. Install plugin [vim-lsp](https://github.com/prabirshrestha/vim-lsp) and enable logging for it.
+
+```
+# in .vimrc
+let g:lsp_log_verbose = 1
+let g:lsp_log_file = expand('~/vim-lsp.log')
+```
+
+1. Option 1: Install the language server via plugin [vim-lsp-settings](https://github.com/mattn/vim-lsp-settings). However it’s broken right now (See [issue](https://github.com/mattn/vim-lsp-settings/issues/566)).
+2. Option 2: Directly install Metals. (Firstly, install [coursier](https://get-coursier.io/).)
+
+```
+`$ curl ``-``fL https``:``//github.com/coursier/launchers/raw/master/cs-x86_64-pc-linux.gz | gzip -d > cs `
+`$ chmod ``+``x cs `
+`$ ``./``cs setup`
+$ rm ./cs && source ~/.profile
+
+`$ cs install metals`
+```
+
+1. Remember to root your vim working directory with the pom.xml, which will create a Metals directory  `.metals/`  in the same directory as the source project. For example the log locates in `./metals/metals.log`.
+
+```
+$ cd fooArtifactId && ls
+pom.xml  src
+
+$ vim .
+$ vim src/main/scala/fooGroupId/App.scala
+
+New Maven workspace detected, would you like to import the build?
+1 - [metals] Import build
+2 - [metals] Not now
+3 - [metals] Don't show again
+Type number and <Enter> or click with mouse (empty cancels):
+
+# Choose 1. It might take some time to download dependency.
+```
+
+1. Verify the Metals is working
+
+```
+:LspStatus
+metals: running
+```
+
+
+`:LspPeekDefinition`
+
+**Issue:** The server will make the vim dead and not respond for a while.
+
+```
+The following two processes are in background:
+zhihaow   2414  2398 99 03:12 ?        00:00:43 java -Xms100m -Xss4m -jar /home/zhihaow/.local/share/coursier/bin/metals
+zhihaow   2558  2414 99 03:12 ?        00:00:52 /home/zhihaow/.sdkman/candidates/java/current/bin/java -Xss4m -XX:MaxInlineLevel=20 -XX:+UseParallelGC -classpath /home/zhihaow/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend
+```
+
+
+**Issue:**
+
+```
+You are using Scala version 2.12.6, which is not supported in this version of Metals. Please upgrade to Scala version 2.12.15.
+1 - [metals] More information
+2 - [metals] Don't show again
+Type number and <Enter> or click with mouse (empty cancels):
+```
+
+## **Section 2.  Browser Spark source code**
+
+The following script can compile the spark code. (The JVM argument is to avoid stack overflow exception)
+
+```
+MAVEN_OPTS="-Xss512M" mvn -DskipTests clean package
+```
+
+Convert the maven to [bloop manually](https://scalacenter.github.io/bloop/docs/build-tools/maven) (Metals translate all build tools to bloop and then use bloop to understand the project e.g. classpath. For example [this wiki](https://scalameta.org/metals/docs/build-tools/maven) shows how the maven build file is translated into bloop either automatically or manually)
+
+```
+**mvn generate-sources ch.epfl.scala:maven-bloop_2.13:1.5.0:bloopInstall**
+```
+
+Then metals will read `.bloop/` for the classpath. For example
+
+`:LspPeekDefinition`
+
+
+
+
+
+
+
+# Builder tools
+
+**Keywords:** Mosh + Vim + Docker
+
+Remote Development have several advantages that I preferred over the local development:
+
+1. **High Network Performance.** My local laptop’s network bandwidth varies from place to place and is generally crappy compared with the bandwidth of EC2 in cloud.  (e.g. 35Mbps vs 2.7Gbps, about 78x)
+2. **Efficient.** Terminal equipped with VIM is more powerful than UI/Mouse interface since the shortcuts make things faster.
+3. **Sandbox.** With docker based containers, it’s easy to isolate experimental developments from polluting each other.
+4. **Infrastructure as code.** Still with the docker file, the infrastructure settings are distilled and stabilized into code which makes everything trackable and clone-able.
+5. **Transparent.** You have a better idea how it works underneath since all is open sourced.
+
+## Docker
+
+**Question 1.**  Install brazil clis, kinit , mwinit inside a ubuntu based docker container on cloud desktop? https://sage.amazon.com/posts/1243890
+Not possible.
+
+## Vim
+
+**Keywords**: [Bemol](https://w.amazon.com/bin/view/Bemol/) + [CoC](https://github.com/neoclide/coc.nvim)
+
+We need a language server protocol ([LSP](https://microsoft.github.io/language-server-protocol/)) implementation e.g. [CoC](https://github.com/neoclide/coc.nvim) + [JDT](https://www.eclipse.org/jdt/) to add IDE-like features such as auto complete, go-to definition etc to vim.  With [Bemol](https://w.amazon.com/bin/view/Bemol/), Brazil can be understandable to the above LSP settings.
+
+**Question 1**. How to debug?
+
+## Mosh
+
+We need to rebuild either Mosh RPM or from source for Amazon Linux 2 due to the [binary compatibility issues](https://github.com/mobile-shell/mosh/issues/1026#issuecomment-550387698) between Enterprise Linux 7 and Amazon Linux 2. After that, append [encoding settings](https://github.com/mobile-shell/mosh/issues/793#issuecomment-368755189) to your `~/.zshrc` in local side.
+
+Annoying: recently mosh Often disconnected even the network is good (ssh is good) with this message, maybe some bugs.
+
+```
+mosh: Last contact 26 seconds ago. [To quit: Ctrl-^ .]
+```
+
+BTW, [Eternal Terminal](https://eternalterminal.dev/) might be a better alternative due to features like native scrolling.
+
+
+### References
+
+1. [Bemol](https://code.amazon.com/packages/Bemol/trees/mainline) code by [Olivier Teuliere (teuliere@)](https://phonetool.amazon.com/users/teuliere)
+2. [Scala Development Setup for Vim](https://quip-amazon.com/abHaAcgJpRSr) / Scala should switch to[nvim lsp + metals](https://github.com/scalameta/nvim-metals)
+3. Some vim configuration samples: [[1]](https://code.amazon.com/packages/LegristDotfiles/blobs/1a41d3272f803c9f988e183d2998fdc727d831da/--/vim/bundle/coding_activator.vim#L170), [[2]](https://github.com/qubidt/.dotfiles/blob/ffeb68d9e065b8c1cfbe4b6e4ddf2fd3b89cecb6/neovim/coc-settings.json)
+4. [Checksheet](https://quip-amazon.com/muGuANhoSZaE/Checksheet)
+
+

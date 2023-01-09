@@ -2,7 +2,7 @@ Reading List
 
 Interest (Feed your curiosity)
 
-1. *streaming*: https://w.amazon.com/bin/view/Zhihaow
+1. *streaming*: 
 2. *algorithm & data structure*.
 3. *database*.
 

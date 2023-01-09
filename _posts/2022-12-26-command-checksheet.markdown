@@ -41,6 +41,7 @@ gdb --batch --pid 51689 -ex "dump memory test.dum 0x7ff874000000  0x7ff87400ffff
 1. [What is Unlock Diagnostic VM Options: -XX:+UnlockDiagnosticVMOptions?][unlock]
 1. [JVM Anatomy Quark #12: Native Memory Tracking][shipilev-nmt]
 1. [It's all about buffers: zero-copy, mmap and Java NIO][direct-memory]
+1. [The JVM's mysterious AllocatePrefetch options: what do they actually do?][prefetch]
 
 
 
@@ -56,6 +57,7 @@ gdb --batch --pid 51689 -ex "dump memory test.dum 0x7ff874000000  0x7ff87400ffff
 [unlock]: https://answers.ycrash.io/question/what-is-unlock-diagnostic-vm-options--xxunlockdiagnosticvmoptions?q=701
 [shipilev-nmt]: https://shipilev.net/jvm/anatomy-quarks/12-native-memory-tracking/
 [direct-memory]: https://xunnanxu.github.io/2016/09/10/It-s-all-about-buffers-zero-copy-mmap-and-Java-NIO/ 
+[prefetch]: https://www.opsian.com/blog/jvms-allocateprefetch-options/
 
 ### [go][godoc]
 

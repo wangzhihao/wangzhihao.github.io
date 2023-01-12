@@ -32,12 +32,15 @@ categories: her
 1. [Bipolar disorder][bipolar]
     1. [Agomelatine (阿戈美拉汀)][Agomelatine] 已停药
     1. [The Psychology of Bipolar Disorders][psychology-bipolar]
+1. [Atopic dermatitis][eczema]
+
 
 [cva]: https://www.webmd.com/asthma/guide/cough-variant-asthma
 [Budesonide]: https://en.wikipedia.org/wiki/Budesonide
 [bipolar]: https://en.wikipedia.org/wiki/Bipolar_disorder 
 [Agomelatine]: https://en.wikipedia.org/wiki/Agomelatine
 [psychology-bipolar]: https://psykologtidsskriftet.no/2007/05/psychology-bipolar-disorders
+[eczema]: https://www.mayoclinic.org/diseases-conditions/contact-dermatitis/symptoms-causes/syc-20352742
 
 
 ## 医生

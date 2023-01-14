@@ -27,13 +27,22 @@ categories: her
 我是安全的，我不需要害怕。我可以允许生气和冲突的存在。
 
 ## Pain 
+
+### 她
+
 1. [Cough-variant asthma][cva] 
     1. [Budesonide (布地奈德)][Budesonide]
 1. [Bipolar disorder][bipolar]
     1. [Agomelatine (阿戈美拉汀)][Agomelatine] 已停药
     1. [The Psychology of Bipolar Disorders][psychology-bipolar]
 1. [Atopic dermatitis][eczema]
+1. 背疼
 
+### 我
+1. 肠易激综合征
+1. 口臭
+1. 脂肪肝
+1. 高血脂
 
 [cva]: https://www.webmd.com/asthma/guide/cough-variant-asthma
 [Budesonide]: https://en.wikipedia.org/wiki/Budesonide

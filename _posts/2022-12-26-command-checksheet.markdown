@@ -62,3 +62,12 @@ gdb --batch --pid 51689 -ex "dump memory test.dum 0x7ff874000000  0x7ff87400ffff
 ### [go][godoc]
 
 [godoc]: https://go.dev/doc/
+
+### [Java Security][java-security]
+
+1. [cipher][cipher]
+
+[java-security]: https://docs.oracle.com/en/java/javase/19/security/java-security-overview1.html
+[cipher]: https://docs.oracle.com/javase/8/docs/api/javax/crypto/Cipher.html
+
+

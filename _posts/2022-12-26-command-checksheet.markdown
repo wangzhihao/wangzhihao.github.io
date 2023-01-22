@@ -6,6 +6,9 @@ categories: Computer Science
 * TOC
 {:toc}
 
+
+## Topic 
+
 ### [Eclispe Memory Analyzer (MAT)][mat-doc]
 
 [mat-doc]: http://help.eclipse.org/index.jsp?topic=/org.eclipse.mat.ui.help/welcome.html
@@ -70,4 +73,30 @@ gdb --batch --pid 51689 -ex "dump memory test.dum 0x7ff874000000  0x7ff87400ffff
 [java-security]: https://docs.oracle.com/en/java/javase/19/security/java-security-overview1.html
 [cipher]: https://docs.oracle.com/javase/8/docs/api/javax/crypto/Cipher.html
 
+### [JProfiler][JProfiler]
 
+1. [Thread History][threads] shows a good timeline view to display the threads execution history.
+
+[JProfiler]: https://www.ej-technologies.com/products/jprofiler/overview.html
+[threads]: https://www.ej-technologies.com/resources/jprofiler/help/doc/main/threads.html
+
+### [perf][perf]
+
+[perf]: https://www.brendangregg.com/perf.html
+
+### [eBPF][eBPF]
+
+[eBPF]: https://www.brendangregg.com/ebpf.html 
+
+
+
+## One-liner
+
+1. **bcc install**: on EC2, run `sudo yum install bcc` and you will find tools under
+`/usr/share/bcc/tools/`.
+1. **perf install**: on EC2, run `sudo yum install perf`.
+1. **memory leak**: [bcc memleak][bcc-memleak] instruments all alloc functions which is great
+to detect continous leaking.
+
+
+[bcc-memleak]: https://github.com/iovisor/bcc/blob/master/tools/memleak_example.txt

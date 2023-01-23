@@ -6,13 +6,9 @@ categories: Computer Science
 * TOC
 {:toc}
 
-# Reading List
 
-## Interest (Feed your curiosity)
-
-1. **streaming**: https://w.amazon.com/bin/view/Zhihaow
-2. **algorithm & data structure**.
-3. **database**.
+## Must Read
+1. [RFC793: TRANSMISSION CONTROL PROTOCOL](https://www.ietf.org/rfc/rfc793.txt) 12% read.
 
 ## Important papers
 

@@ -8,7 +8,12 @@ categories: Computer Science
 
 
 ## Must Read
-1. [RFC793: TRANSMISSION CONTROL PROTOCOL](https://www.ietf.org/rfc/rfc793.txt) 12% read.
+1. [RFC793: TRANSMISSION CONTROL PROTOCOL][rfc793] edited by [Jon Postel][Jon_Postel], invented by [Vint Cerf][Vint_Cerf] and [Bob Kahn][Bob_Kahn]. [35% read].
+
+[Jon_Postel]: https://en.wikipedia.org/wiki/Jon_Postel
+[Vint_Cerf]: https://en.wikipedia.org/wiki/Vint_Cerf
+[Bob_Kahn]: https://en.wikipedia.org/wiki/Bob_Kahn
+[rfc793]: https://www.rfc-editor.org/rfc/pdfrfc/rfc793.txt.pdf
 
 ## Important papers
 

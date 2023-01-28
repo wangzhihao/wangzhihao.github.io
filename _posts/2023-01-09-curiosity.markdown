@@ -4,12 +4,64 @@ title:  "curiosity"
 categories: curiosity 
 ---
 
+* TOC
+{:toc}
+
+
 # Curiosity
 
 “The important thing is not to stop questioning. Curiosity has its own reason for existence. One cannot help but be in awe when he contemplates the mysteries of eternity, of life, of the marvelous structure of reality. It is enough if one tries merely to comprehend a little of this mystery each day.
 —"Old Man's Advice to Youth: 'Never Lose a Holy Curiosity.'" LIFE Magazine (2 May 1955) p. 64”
 
+## How to
 
+### How to transactional?
+
+1. transaction -> ACID
+      1. Atomic, -> switch reference.
+      1. Consistency -> coordination.
+         1. concurrency
+         1. consistency model
+      1. Isolated, -> virtualization.
+      1. durable -> replica
+
+1. [chain replication](https://www.cs.cornell.edu/home/rvr/papers/OSDI04.pdf)
+
+### How to export DDB data to s3?
+
+Daily scan the whole DDB table is very ineffcient and expensive. Obsolete ways:
+
+1. https://github.com/audienceproject/spark-dynamodb
+1. https://github.com/awslabs/emr-dynamodb-connector
+
+Publish delta and do some compactions sounds promising.
+
+PITR sounds promising:
+
+1. https://aws.amazon.com/blogs/aws/new-export-amazon-dynamodb-table-data-to-data-lake-amazon-s3/
+1. https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/S3DataExport.HowItWorks.html
+
+Glue offers an out of box way to export ddb to s3 regularly.
+
+1. https://aws.amazon.com/blogs/big-data/accelerate-amazon-dynamodb-data-access-in-aws-glue-jobs-using-the-new-aws-glue-dynamodb-elt-connector/
+
+Idea: Write a CDK Construct which setup a pipeline to export DDB to s3 regularly.
+
+### How to increase read throughput for remote encrypted files?
+
+How to increase read throughput for remote encrypted files? For example, to read
+S3 files encrypted in AES.
+
+Check [code repo][code] for implementation.
+
+Will [java virtual threads][java-virtual-threads] help?
+
+How to record context switch?
+
+[code]: https://github.com/wangzhihao/read-performance
+[java-virtual-threads]: https://www.infoq.com/articles/java-virtual-threads/
+
+## Others
 
 1. The Elements of Statistical Learning by Jerome H. Friedman, Robert Tibshirani, and Trevor Hastie
 2. [MultipleVariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/syllabus/)

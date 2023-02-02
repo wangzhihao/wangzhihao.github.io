@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "curiosity"
+title:  "Curiosity"
 categories: curiosity 
 ---
 
@@ -26,6 +26,10 @@ categories: curiosity
       1. durable -> replica
 
 1. [chain replication](https://www.cs.cornell.edu/home/rvr/papers/OSDI04.pdf)
+
+### How to diff two tables (e.g. Glue tables)?
+
+We want something like [this](https://stackoverflow.com/questions/50073678/can-two-parquet-files-be-compared).
 
 ### How to export DDB data to s3?
 
@@ -60,6 +64,8 @@ How to record context switch?
 
 [code]: https://github.com/wangzhihao/read-performance
 [java-virtual-threads]: https://www.infoq.com/articles/java-virtual-threads/
+
+### How to set up an automatic approve step that only promote to next stage when compare if two batch datasets are identical?
 
 ## Others
 

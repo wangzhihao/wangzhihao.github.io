@@ -13,6 +13,12 @@ categories: Computer Science
 1. **perf install**: on EC2, run `sudo yum install perf`.
 1. **memory leak**: [bcc memleak][bcc-memleak] instruments all alloc functions which is great
 to detect continous leaking.
+1. **vim IDE**: 
+    ```
+    bemol --watch
+    :CocStart
+    :CocInstall coc-java
+    ```
 
 
 [bcc-memleak]: https://github.com/iovisor/bcc/blob/master/tools/memleak_example.txt

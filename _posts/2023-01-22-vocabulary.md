@@ -14,6 +14,7 @@ categories: articles
 1. seagull: 海鸥
 1. steer: 
 1. stroll: walk in a leisurely way.
+1. tap
 1. vibrant: full of energy and enthusiasm. related to [vibrate][vibrant-etymology]
 
 [vibrant-etymology]: https://www.etymonline.com/search?q=vibrant

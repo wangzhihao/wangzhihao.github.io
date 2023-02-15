@@ -7,13 +7,9 @@ categories: Computer Science
 {:toc}
 
 
-## Must Read
-1. [RFC793: TRANSMISSION CONTROL PROTOCOL][rfc793] edited by [Jon Postel][Jon_Postel], invented by [Vint Cerf][Vint_Cerf] and [Bob Kahn][Bob_Kahn]. [35% read].
+## Reading
 
-[Jon_Postel]: https://en.wikipedia.org/wiki/Jon_Postel
-[Vint_Cerf]: https://en.wikipedia.org/wiki/Vint_Cerf
-[Bob_Kahn]: https://en.wikipedia.org/wiki/Bob_Kahn
-[rfc793]: https://www.rfc-editor.org/rfc/pdfrfc/rfc793.txt.pdf
+1. [coc-nvim.txt](https://github.com/neoclide/coc.nvim/blob/master/doc/coc.txt)
 
 ## Important papers
 
@@ -78,8 +74,8 @@ categories: Computer Science
 1. **Kafka:** Kreps, Jay, Neha Narkhede, and Jun Rao. "Kafka: A distributed messaging system for log processing." *Proceedings of the NetDB*. Vol. 11. 2011. [[paper](http://notes.stephenholiday.com/Kafka.pdf), ]
 2. **Presto/Trino**: Sethi, Raghav, et al. "Presto: SQL on everything." *2019 IEEE 35th International Conference on Data Engineering (ICDE)*. IEEE, 2019.
 3. **Ray:** Moritz, Philipp, et al. "Ray: A distributed framework for emerging {AI} applications." *13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 18)*. 2018.
-4. **Flink:** Carbone, Paris, et al. "Apache flink: Stream and batch processing in a single engine." Bulletin of the IEEE Computer Society Technical Committee on Data Engineering 36.4 (2015).
-5. **Spark:** Zaharia, Matei, et al. "Resilient distributed datasets: A {Fault-Tolerant} abstraction for {In-Memory} cluster computing." *9th USENIX Symposium on Networked Systems Design and Implementation (NSDI 12)*. 2012.
+4. **Flink:** Carbone, Paris, et al. "Apache flink: Stream and batch processing in a single engine." Bulletin of the IEEE Computer Society Technical Committee on Data Engineering 36.4 (2015). [Flink Improvement Proposals](https://cwiki.apache.org/confluence/display/FLINK/Flink+Improvement+Proposals)
+5. **Spark:** Zaharia, Matei, et al. "Resilient distributed datasets: A {Fault-Tolerant} abstraction for {In-Memory} cluster computing." *9th USENIX Symposium on Networked Systems Design and Implementation (NSDI 12)*. 2012. [Spark project improvement proposals](https://spark.apache.org/improvement-proposals.html)
 6. **Mosh:** Winstein, Keith, and Hari Balakrishnan. "Mosh: An interactive remote shell for mobile clients." *2012 USENIX Annual Technical Conference (USENIX ATC 12)*. 2012.
 7. **ZooKeeper:** Hunt, Patrick, et al. "{ZooKeeper}: Wait-free Coordination for Internet-scale Systems." *2010 USENIX Annual Technical Conference (USENIX ATC 10)*. 2010.
 8. **Chubby:** [Burrows, Mike](https://en.wikipedia.org/wiki/Michael_Burrows). "The Chubby lock service for loosely-coupled distributed systems." *Proceedings of the 7th symposium on Operating systems design and implementation*. 2006.
@@ -141,6 +137,13 @@ categories: Computer Science
 ## Specification
 
 1. [SYSTEM V APPLICATION BINARY INTERFACE](http://www.sco.com/developers/devspecs/gabi41.pdf)
+1. [RFC793: TRANSMISSION CONTROL PROTOCOL][rfc793] edited by [Jon Postel][Jon_Postel], invented by [Vint Cerf][Vint_Cerf] and [Bob Kahn][Bob_Kahn]. [1 time read].
+
+[Jon_Postel]: https://en.wikipedia.org/wiki/Jon_Postel
+[Vint_Cerf]: https://en.wikipedia.org/wiki/Vint_Cerf
+[Bob_Kahn]: https://en.wikipedia.org/wiki/Bob_Kahn
+[rfc793]: https://www.rfc-editor.org/rfc/pdfrfc/rfc793.txt.pdf
+
 
 ## Awards
 
@@ -170,6 +173,7 @@ categories: Computer Science
     1. https://blogs.oracle.com/javamagazine/post/java-hotspot-hsdis-disassembler
     2. https://www.infoq.com/presentations/jitwatch/
 
+
 ## Other candidates
 
 1. https://go.dev/doc/effective_go
@@ -195,7 +199,10 @@ categories: Computer Science
     1. https://en.wikipedia.org/wiki/Data_structure_alignment
 21. https://eli.thegreenplace.net/2018/measuring-context-switching-and-memory-overheads-for-linux-threads/
 
-## Other books
+
+
+
+## Amateur 
 
 ### Music
 
@@ -209,4 +216,35 @@ categories: Computer Science
 3. The Old man and the sea
 4. 生命不能承受之轻
 
+
+### Cognitive Science
+1. [Max Kleiman-Weiner](http://www.mit.edu/~maxkw/), Harvard
+1. [Tobias Gerstenberg](https://cicl.stanford.edu/member/tobias_gerstenberg/)
+1. [Computational Cognitive Science Lab](https://cocosci.princeton.edu/)
+1. [Tom Griffiths](https://cocosci.princeton.edu/tom/tom.php)
+1. Friedenberg, Jay, Gordon Silverman, and Michael J. Spivey. Cognitive science: an introduction to the study of mind. Sage Publications, 2021.
+1. [Cognitive Science Society](https://cogsci.mindmodeling.org/)
+1. [Stanford Cognitive Science Concentration: Approved Courses](https://symsys.stanford.edu/undergraduatesconcentrationscognitive-science-cogsci/cognitive-science-concentration-approved)
+
+
+## Philosophy 
+1. Perry, John. A dialogue on personal identity and immortality. Hackett Publishing, 1978.
+
+### Others
+1. Brain Computer Interface
+    1. https://www.bci-award.com/Home
+    1. https://synchron.com/
+    1. https://en.wikipedia.org/wiki/Annual_BCI_Research_Award
+1. Computer Music: https://ccrma.stanford.edu/
+    1. Course: https://www.coursera.org/learn/audio-signal-processing/home/welcome
+    2. Course: https://online.stanford.edu/courses/sohs-music0002-physics-based-sound-synthesis-games-and-interactive-systems
+    3. https://ccrma.stanford.edu/academics/courses/course-history
+    4. http://www.computermusic.org/
+    5. Dannenberg, Roger B. "An on-line algorithm for real-time accompaniment." ICMC. Vol. 84. 1984.
+    6. https://quod.lib.umich.edu/i/icmc/bbp2372.2018?rgn=full+text
+1. https://en.wikipedia.org/wiki/Domain-driven_design
+1. Suburban Nation: The Rise of Sprawl and the Decline of the American Dream
+1. The restoration of the self 
+1. [庄子](https://www.amazon.com/%E4%B8%AD%E5%8D%8E%E7%BB%8F%E5%85%B8%E5%90%8D%E8%91%97%E5%85%A8%E6%9C%AC%E5%85%A8%E6%B3%A8%E5%85%A8%E8%AF%91-%E5%BA%84%E5%AD%90-%E6%96%B9%E5%8B%87/dp/7101109527)
+1. Nonviolent Communication
 

@@ -3,6 +3,9 @@ layout: post
 title:  "Relationship"
 categories: her 
 ---
+## Life
+1. Enjoy it.
+1. 平等
 
 ## Psychology 
 
@@ -27,20 +30,21 @@ categories: her
 我在害怕什么？其实我在害怕冲突本身。然而我已经不是以前童年的关系了。在这段关系里
 我是安全的，我不需要害怕。我可以允许生气和冲突的存在。
 
-## Pain 
+## Conditions 
 
 ### 她
 
 1. [Cough-variant asthma][cva] 
     1. [Budesonide (布地奈德)][Budesonide]
-1. [Bipolar disorder][bipolar]
-    1. [Agomelatine (阿戈美拉汀)][Agomelatine] 已停药
-    1. [The Psychology of Bipolar Disorders][psychology-bipolar]
+1. Borderline Personality Disorder
+1. ~~[Bipolar disorder][bipolar]~~
+    1. ~~[Agomelatine (阿戈美拉汀)][Agomelatine] 已停药~~
 1. [Atopic dermatitis][eczema]
 1. 背疼
 1. 流鼻血
 
 ### 我
+1. Narcissistic personality disorder
 1. 肠易激综合征
 1. 口臭
 1. 脂肪肝
@@ -50,7 +54,6 @@ categories: her
 [Budesonide]: https://en.wikipedia.org/wiki/Budesonide
 [bipolar]: https://en.wikipedia.org/wiki/Bipolar_disorder 
 [Agomelatine]: https://en.wikipedia.org/wiki/Agomelatine
-[psychology-bipolar]: https://psykologtidsskriftet.no/2007/05/psychology-bipolar-disorders
 [eczema]: https://www.mayoclinic.org/diseases-conditions/contact-dermatitis/symptoms-causes/syc-20352742
 
 
@@ -60,3 +63,24 @@ categories: her
 1. 北大口腔医院第四门诊牙周科王琪， 刮治不疼。
 1. 朝阳医院呼吸科郭兮恒，充满了人文关怀。
 1. 首都医科大正畸科 张栋梁，对病人很温柔。
+
+## 咨询 价值2千
+
+### Feb 5th 2023
+1. 理想化 -> 破灭 -> 灾难化。多满足, 满足不了的时候真诚，就会逐渐的现实化。越小的时候的理想化越容易被满足。
+1. 她愤怒，我害怕。我害怕的有可能是我压抑的力量。我怕它释放出来伤到别人。是么？
+1. 当她和第三者冲突的时候，我可以做的更好，我可以镜映她的情绪，理解她，看到并说出她内心更底层的东西。这样她的冲突就会减少。
+1. 我是多么的渴望平等，因为我从小的乡土环境里就缺少这些。
+
+延伸阅读
+1. [Idealization and Devaluation in BPD](https://www.verywellmind.com/devaluation-and-idealization-in-bpd-425291)
+1. [知乎苏德中回答](https://www.zhihu.com/question/27707005/answer/69792582)
+1. [邊緣型人格疾患（Borderline personality disorder)]
+1. [自恋型人格障碍]
+1. [DSM-5](https://en.wikipedia.org/wiki/DSM-5)
+1. [Alfred Adler (阿德勒)](https://en.wikipedia.org/wiki/Alfred_Adler)
+1. [Dialectical Behavior Therapy (DBT)](https://my.clevelandclinic.org/health/treatments/22838-dialectical-behavior-therapy-dbt)
+1. [the Difference Between Bipolar and Borderline Personality Disorder](https://healthmatters.nyp.org/understanding-difference-bipolar-borderline-personality-disorder/)
+1. [双相情感障碍和边缘型人格有何不同？](https://www.zhihu.com/question/370141974)
+1. [自恋型人格，知乎电子书](https://www.zhihu.com/market/album/933668753932181504/section/934801533915258880)
+1. [Narcissism and Self-Esteem Are Very Different](https://blogs.scientificamerican.com/beautiful-minds/narcissism-and-self-esteem-are-very-different/)

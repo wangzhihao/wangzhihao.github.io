@@ -21,4 +21,14 @@ to detect continous leaking.
     ```
 
 
+
 [bcc-memleak]: https://github.com/iovisor/bcc/blob/master/tools/memleak_example.txt
+
+
+## Vim basic requirements
+1. **DOC** `Shift + K`: to show the documentation. Then use `CTRL + f` or `CTRL + b` to page up and down.
+1. **Format** To format line 3 to 29 `:3, v29G, \f`, to format the whole file `:Format`. Disable auto format on purpose.
+1. **Organize Imports** `:OR`
+1. Pending: Auto import when typing. (type OR, avoid automatically rewrite)
+1. Pending: tab to auto expand and select the first hint. (use cr to confirm)
+1. Pending: Jump to Definition

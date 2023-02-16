@@ -84,3 +84,10 @@ categories: her
 1. [双相情感障碍和边缘型人格有何不同？](https://www.zhihu.com/question/370141974)
 1. [自恋型人格，知乎电子书](https://www.zhihu.com/market/album/933668753932181504/section/934801533915258880)
 1. [Narcissism and Self-Esteem Are Very Different](https://blogs.scientificamerican.com/beautiful-minds/narcissism-and-self-esteem-are-very-different/)
+
+### Feb 11th 2023
+1. 工作中的优秀是有条件性的满足自恋，要学会在关系中满足自恋，后者更多是无条件性的。我对后者是非常陌生不习惯的，因为很少这方面的经历。
+1. 我为什么如此的受不了指责？
+1. 我和妈妈的关系。
+1. 我对关系的理解很**表浅**，不管对方如何长久的对我好，一旦出现破裂，不知道如何修复，只会破罐破摔。
+1. 如何处理自恋问题。

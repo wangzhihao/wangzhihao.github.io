@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "TODO List"
+categories: Priority 
+---
+
+1. Use COC + Vim to setup a handy development environment for Flink.
+    1. Build the Flink requires Java 8 or Java 11.

@@ -4,5 +4,15 @@ title:  "TODO List"
 categories: Priority 
 ---
 
-1. Use COC + Vim to setup a handy development environment for Flink.
-    1. Build the Flink requires Java 8 or Java 11.
+1. Write a PR.
+    1. Try to make a PR to Rust. 
+    1. Read the book [The Rust Programming Language](https://doc.rust-lang.org/book/index.html#the-rust-programming-language).
+    1. Read [The Rustonomicon](https://doc.rust-lang.org/stable/nomicon/)
+        1. [Atomics](https://doc.rust-lang.org/stable/nomicon/atomics.html#atomics) 
+    1. Write Rust for [CodeForce problems](https://codeforces.com/problemset?order=BY_SOLVED_DESC)
+        1. How to undestand the lock in rust [std::io::Stdin](https://doc.rust-lang.org/std/io/struct.Stdin.html#method.lock)?
+        1. Read [core.sync](https://github.com/rust-lang/rust/tree/master/library/core/src/sync)
+            1. [std::sync::atomic](https://doc.rust-lang.org/std/sync/atomic/index.html)
+            1. understand [this example - A simple spinlock](https://doc.rust-lang.org/std/sync/atomic/index.html#examples)
+
+1. [Wedding calendar](https://calendar.google.com/calendar/u/0/r/agenda/2023/1/1)

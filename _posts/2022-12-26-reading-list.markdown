@@ -63,6 +63,9 @@ categories: Computer Science
 1. **virtio:** [Russell, Rusty](https://en.wikipedia.org/wiki/Rusty_Russell). "virtio: towards a de-facto standard for virtual I/O devices." *ACM SIGOPS Operating Systems Review* 42.5 (2008): 95-103. [[paper](https://ozlabs.org/~rusty/virtio-spec/virtio-paper.pdf), [video](https://www.youtube.com/watch?v=FY-iQnrrOgk)]
 2. Intel Virtualisation: How VT-x, KVM and QEMU Work Together [[link](https://binarydebt.wordpress.com/2018/10/14/intel-virtualisation-how-vt-x-kvm-and-qemu-work-together/)]
 
+### Streaming
+1. [Rethinking Stream Processing and Streaming Databases](https://www.risingwave-labs.com/blog/Rethinking_stream_processing_and_streaming_databases/) -- from RisingWave by [Yingjun Wu](https://twitter.com/YingjunWu) [1 time read]
+
 ### Others
 
 1. **SSD**: https://en.wikipedia.org/wiki/Solid-state_drive

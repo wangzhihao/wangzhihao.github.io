@@ -7,10 +7,6 @@ categories: Computer Science
 {:toc}
 
 
-## Reading
-
-1. [coc-nvim.txt](https://github.com/neoclide/coc.nvim/blob/master/doc/coc.txt)
-
 ## Important papers
 
 ### Distributed System
@@ -207,6 +203,14 @@ categories: Computer Science
 
 ## Amateur 
 
+### Introduction
+
+1. [Death](https://oyc.yale.edu/death/phil-176), by Shelly Kagan
+1. [The Feynman Lectures on Physics](https://www.feynmanlectures.caltech.edu/)
+1. Principles of Economics N. Gregory Mankiw
+1. The Calculus Lifesaver: All the Tools You Need to Excel at Calculus [videos](https://vimeo.com/search?q=calculus+lifesaver)
+1. [The Architectural Imagination](https://pll.harvard.edu/course/architectural-imagination?delta=4)
+
 ### Music
 
 1. Structural Hearing: Tonal Coherence in Music
@@ -230,7 +234,7 @@ categories: Computer Science
 1. [Stanford Cognitive Science Concentration: Approved Courses](https://symsys.stanford.edu/undergraduatesconcentrationscognitive-science-cogsci/cognitive-science-concentration-approved)
 
 
-## Philosophy 
+### Philosophy 
 1. Perry, John. A dialogue on personal identity and immortality. Hackett Publishing, 1978.
 
 ### Others
@@ -250,4 +254,33 @@ categories: Computer Science
 1. The restoration of the self 
 1. [庄子](https://www.amazon.com/%E4%B8%AD%E5%8D%8E%E7%BB%8F%E5%85%B8%E5%90%8D%E8%91%97%E5%85%A8%E6%9C%AC%E5%85%A8%E6%B3%A8%E5%85%A8%E8%AF%91-%E5%BA%84%E5%AD%90-%E6%96%B9%E5%8B%87/dp/7101109527)
 1. Nonviolent Communication
+1. The old man and the sea
+1. DUNE
+1. 激荡十年，水大鱼大
+1. a guide to graph colouring by lewis
+1. psychology 
+1. 游艺黑白
+1. 论钢琴弹奏
+1. 非暴力沟通
+1. 自体的重建
+1. 郊区国家 蔓延的兴起
+1. 钢琴基础教程
+1. classical form
+1. 认识乐理
+1. 巴赫创意曲
+1. 八次危机
+1. 逃不开的经济周期
+1. The history of western philosophy
+1. 学琴日记 
+1. 钢琴家弹钢琴 
+1. GEB Godel, escher, bach 
+1. On Piano Playing 
+1. Juan Martin / Flamenco Guitar Solos 
+1. Principle of microeconomics 
+1. kite runner 
+1. 圆圈正义 
+1. Structural Hearing 
+1. Criminology a sociological understanding
+1. 罪与罚
+1. 最美民宿 
 

@@ -41,7 +41,9 @@ categories: Computer Science
 2. **Coq**: https://coq.inria.fr/ 
 3. [Jung, Ralf.](https://scholar.google.com/citations?user=zddokfoAAAAJ&hl=en&oi=sra) "Understanding and Evolving the Rust Programming Language." (2020). ([pdf](https://research.ralfj.de/phd/thesis-screen.pdf))
 4. [The Rustonomicon](https://doc.rust-lang.org/nomicon/#the-rustonomicon)
+1. Klabnik, Steve, and Carol Nichols. [The Rust Programming Language](https://doc.rust-lang.org/book/index.html#the-rust-programming-language). No Starch Press, 2023. (Read up to section 9.3)
 5. Rust RFCs (e.g. RFC for [nll borrow checker](https://rust-lang.github.io/rfcs/2094-nll.html))
+1. [The Rust Reference](https://doc.rust-lang.org/reference/index.html)
 6. **Async Programming (Kotlin Coroutines):** Elizarov, Roman, et al. "Kotlin coroutines: design and implementation." *Proceedings of the 2021 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software*. 2021. ([video link](https://dl.acm.org/doi/10.1145/3486607.3486751))
 7. **G1 GC**: Detlefs, David, et al. "Garbage-first garbage collection." *Proceedings of the 4th international symposium on Memory management*. 2004.
 

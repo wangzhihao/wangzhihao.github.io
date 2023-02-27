@@ -6,20 +6,22 @@ categories: Priority
 
 1. 学开车
 
+1. **Must read**: [The Rust Reference](https://doc.rust-lang.org/reference/)
+
 1. Write a PR.
     1. Try to make a PR to Rust. 
     1. Read [The Rustonomicon](https://doc.rust-lang.org/stable/nomicon/)
         1. [Atomics](https://doc.rust-lang.org/stable/nomicon/atomics.html#atomics) 
-    1. Read crate [text_io](https://crates.io/crates/text_io/) [source code](https://github.com/oli-obk/rust-si/blob/main/src/lib.rs)
-        ```rust
-        /// All text input is handled through this macro
-        #[macro_export]
-        macro_rules! read(
-            ($($arg:tt)*) => {
-                    $crate::try_read!($($arg)*).unwrap()
-                        };
-                );
+    1. Read [Rust Compiler Development Guide](https://rustc-dev-guide.rust-lang.org/about-this-guide.html)
+    1. [DONE] Read crate [text_io](https://crates.io/crates/text_io/) [source code](https://github.com/oli-obk/rust-si/blob/main/src/lib.rs)
+        1. understand how rust handle [internal rules](https://veykril.github.io/tlborm/decl-macros/patterns/internal-rules.html) for macros.
         ```
+        find ./compiler -name '*macro*'
+        ```
+        1. Figure out what is [rustc_macro](https://github.com/rust-lang/rust/tree/master/compiler/rustc_macros) used for?
+        1. Useful links
+            1. [rustc_macros RFC](https://github.com/rust-lang/rfcs/blob/master/text/1681-macros-1.1.md)
+            1. https://doc.rust-lang.org/nightly/nightly-rustc/rustc_macros/index.html
     1. Write Rust for [CodeForce problems](https://codeforces.com/problemset?order=BY_SOLVED_DESC)
         1. How to undestand the lock in rust [std::io::Stdin](https://doc.rust-lang.org/std/io/struct.Stdin.html#method.lock)?
         1. Read [core.sync](https://github.com/rust-lang/rust/tree/master/library/core/src/sync)

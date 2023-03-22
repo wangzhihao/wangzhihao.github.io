@@ -4,12 +4,13 @@ title:  "TODO List"
 categories: Priority 
 ---
 
-1. 学开车
+1. **生活是一次经历，而不是一场比赛**: 学开车, 学游泳, 去旅行, 学烹饪, 学音乐
 
 1. **Must read**: [The Rust Reference](https://doc.rust-lang.org/reference/)
 
 1. Write a PR.
     1. Try to make a PR to Rust. 
+    1. Visit [Rust Forum](https://users.rust-lang.org/) every day.
     1. Read [The Rustonomicon](https://doc.rust-lang.org/stable/nomicon/)
         1. [Atomics](https://doc.rust-lang.org/stable/nomicon/atomics.html#atomics) 
     1. Read [Rust Compiler Development Guide](https://rustc-dev-guide.rust-lang.org/about-this-guide.html)

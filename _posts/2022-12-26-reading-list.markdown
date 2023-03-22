@@ -9,7 +9,7 @@ categories: Computer Science
 ## How to be a good coder?
 
 1. Master a language.
-    1. Read reference.
+    1. Read specification.
         1. [The Rust Reference](https://doc.rust-lang.org/reference/index.html).
         1. [The Java® Language Specification](https://docs.oracle.com/javase/specs/jls/se19/html/index.html).
 1. Learn the system.

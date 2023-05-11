@@ -12,9 +12,12 @@ categories: Computer Science
     1. Read specification.
         1. [The Rust Reference](https://doc.rust-lang.org/reference/index.html).
         1. [The Java® Language Specification](https://docs.oracle.com/javase/specs/jls/se19/html/index.html).
+        1. [Python Reference](https://docs.python.org/3/reference/)
 1. Learn the system.
     1. Read protocol.
         1. [RFC793: TRANSMISSION CONTROL PROTOCOL][rfc793] edited by [Jon Postel][Jon_Postel], invented by [Vint Cerf][Vint_Cerf] and [Bob Kahn][Bob_Kahn]. [1 time read].
+    1. Read relese note
+        1. [Flink release note](https://nightlies.apache.org/flink/flink-docs-release-1.17/release-notes/flink-1.17/) 
 
 
 ## Important papers

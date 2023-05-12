@@ -20,6 +20,7 @@ categories: Computer Science
         1. [Flink release note](https://nightlies.apache.org/flink/flink-docs-release-1.17/release-notes/flink-1.17/) 
         1. [Spark release note](https://spark.apache.org/releases/spark-release-3-4-0.html)
         1. [Trino release note](https://trino.io/docs/current/release.html)
+        1. [What's new with AWS](https://aws.amazon.com/about-aws/whats-new/2023/)
 
 
 ## Important papers

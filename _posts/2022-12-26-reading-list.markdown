@@ -18,6 +18,8 @@ categories: Computer Science
         1. [RFC793: TRANSMISSION CONTROL PROTOCOL][rfc793] edited by [Jon Postel][Jon_Postel], invented by [Vint Cerf][Vint_Cerf] and [Bob Kahn][Bob_Kahn]. [1 time read].
     1. Read release note
         1. [Flink release note](https://nightlies.apache.org/flink/flink-docs-release-1.17/release-notes/flink-1.17/) 
+        1. [Spark release note](https://spark.apache.org/releases/spark-release-3-4-0.html)
+        1. [Trino release note](https://trino.io/docs/current/release.html)
 
 
 ## Important papers

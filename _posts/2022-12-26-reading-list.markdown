@@ -139,6 +139,7 @@ categories: Computer Science
 11. [CS 6120: Advanced Compilers: The Self-Guided Online Course](https://www.cs.cornell.edu/courses/cs6120/2022sp/self-guided/)
 12. [CS144, Introduction to Computer Networking](https://www.youtube.com/watch?v=qAFI-2I7wPE&list=PLoCMsyE1cvdWKsLVyf6cPwCLDIZnOj0NS)
 13. MIT 6.875 Foundations of Cryptography [[link](https://mit6875.github.io/fall2021.html)]
+1. [CME 323: Distributed Algorithms and Optimization](https://stanford.edu/~rezab/dao/)
 
 ## Books
 

@@ -156,7 +156,7 @@ categories: Computer Science
 1. [SYSTEM V APPLICATION BINARY INTERFACE](http://www.sco.com/developers/devspecs/gabi41.pdf)
 1. [RFC793: TRANSMISSION CONTROL PROTOCOL][rfc793] edited by [Jon Postel][Jon_Postel], invented by [Vint Cerf][Vint_Cerf] and [Bob Kahn][Bob_Kahn]. [1 time read].
 1. [PEP 518 – Specifying Minimum Build System Requirements for Python Projects][PEP 518] [1 time read].
-1. [PEP 508 – Dependency specification for Python Software Packages][PEP 508] [0 time read]
+1. [PEP 508 – Dependency specification for Python Software Packages][PEP 508] [1 time read]
 1. [PEP 440 – Version Identification and Dependency Specification][PEP 440] [0 time read]
 
 [Jon_Postel]: https://en.wikipedia.org/wiki/Jon_Postel

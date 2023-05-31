@@ -158,6 +158,7 @@ categories: Computer Science
 1. [PEP 518 – Specifying Minimum Build System Requirements for Python Projects][PEP 518] [1 time read].
 1. [PEP 508 – Dependency specification for Python Software Packages][PEP 508] [1 time read]
 1. [PEP 440 – Version Identification and Dependency Specification][PEP 440] [0 time read]
+1. [PEP 427: Binary distribution format (wheel)][PEP 427]
 
 [Jon_Postel]: https://en.wikipedia.org/wiki/Jon_Postel
 [Vint_Cerf]: https://en.wikipedia.org/wiki/Vint_Cerf
@@ -166,6 +167,7 @@ categories: Computer Science
 [PEP 518]: https://peps.python.org/pep-0518/
 [PEP 508]: https://peps.python.org/pep-0518/
 [PEP 440]: https://peps.python.org/pep-0440/
+[PEP 427]: https://packaging.python.org/en/latest/specifications/binary-distribution-format/
 
 
 ## Awards

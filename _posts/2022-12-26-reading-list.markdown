@@ -67,6 +67,12 @@ categories: Computer Science
 1. **Slab**. Bonwick, Jeff. "The slab allocator: An object-caching kernel memory allocator." *USENIX summer*. Vol. 16. 1994.
 2. https://www.memorymanagement.org/
 
+## Topics
+
+### Zero copy
+1. sendfile() eliminates the user buffer during transferring files. [link1](https://github.com/search?q=repo%3Aapache%2Fkafka%20sendfile&type=code) [link2](https://medium.com/swlh/linux-zero-copy-using-sendfile-75d2eb56b39b) [1 time read]
+1. apache arrow eliminate serialization in the context of big data processing. [link1](https://www.infoq.com/articles/apache-arrow-java/) [1 time read]
+
 ### Network
 
 1. **TLS:** [[spec](https://www.rfc-editor.org/rfc/pdfrfc/rfc8446.txt.pdf)]
@@ -160,7 +166,6 @@ categories: Computer Science
 1. [PEP 440 – Version Identification and Dependency Specification][PEP 440] [0 time read]
 1. [PEP 427: Binary distribution format (wheel)][PEP 427]
 1. [PEP 405 - Python Virtual Environments][PEP 405] 
-1. [Arrow Columnar Format](https://arrow.apache.org/docs/format/Columnar.html)
 
 [Jon_Postel]: https://en.wikipedia.org/wiki/Jon_Postel
 [Vint_Cerf]: https://en.wikipedia.org/wiki/Vint_Cerf

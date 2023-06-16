@@ -67,12 +67,6 @@ categories: Computer Science
 1. **Slab**. Bonwick, Jeff. "The slab allocator: An object-caching kernel memory allocator." *USENIX summer*. Vol. 16. 1994.
 2. https://www.memorymanagement.org/
 
-### Topics
-
-#### Zero copy
-1. sendfile() eliminates the user buffer during transferring files. [link1](https://github.com/search?q=repo%3Aapache%2Fkafka%20sendfile&type=code) [link2](https://medium.com/swlh/linux-zero-copy-using-sendfile-75d2eb56b39b) [1 time read]
-1. apache arrow eliminate serialization in the context of big data processing. [link1](https://www.infoq.com/articles/apache-arrow-java/) [1 time read]
-
 ### Network
 
 1. **TLS:** [[spec](https://www.rfc-editor.org/rfc/pdfrfc/rfc8446.txt.pdf)]
@@ -104,6 +98,12 @@ categories: Computer Science
 9. **MapReduce:** Dean, Jeffrey, and Sanjay Ghemawat. "MapReduce: simplified data processing on large clusters." *Communications of the ACM* 51.1 (2008): 107-113.
 10. **GFS**: [Ghemawat, Sanjay](https://en.wikipedia.org/wiki/Sanjay_Ghemawat), Howard Gobioff, and Shun-Tak Leung. "The Google file system." *Proceedings of the nineteenth ACM symposium on Operating systems principles*. 2003.
 11. **Firecracker:** Agache, Alexandru, et al. "Firecracker: Lightweight virtualization for serverless applications." *17th USENIX symposium on networked systems design and implementation (NSDI 20)*. 2020. [[paper](https://www.usenix.org/system/files/nsdi20-paper-agache.pdf)]
+
+## Topics
+
+### Zero copy
+1. sendfile() eliminates the user buffer during transferring files. [link1](https://github.com/search?q=repo%3Aapache%2Fkafka%20sendfile&type=code) [link2](https://medium.com/swlh/linux-zero-copy-using-sendfile-75d2eb56b39b) [1 time read]
+1. apache arrow eliminate serialization in the context of big data processing. [link1](https://www.infoq.com/articles/apache-arrow-java/) [1 time read]
 
 ## Important Code
 

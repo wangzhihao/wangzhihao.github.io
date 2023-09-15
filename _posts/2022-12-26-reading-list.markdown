@@ -105,6 +105,9 @@ categories: Computer Science
 1. sendfile() eliminates the user buffer during transferring files. [link1](https://github.com/search?q=repo%3Aapache%2Fkafka%20sendfile&type=code) [link2](https://medium.com/swlh/linux-zero-copy-using-sendfile-75d2eb56b39b) [1 time read]
 1. apache arrow eliminate serialization in the context of big data processing. [link1](https://www.infoq.com/articles/apache-arrow-java/) [1 time read]
 
+### Type
+1. one's complement vs two's complement
+
 ## Important Code
 
 **Tiny**
@@ -129,6 +132,11 @@ categories: Computer Science
 
 **Interest Pool**
 [SkySailJavaAgent](https://code.amazon.com/packages/SkySailJavaAgent/trees/mainline)  (LoC: 12K) / [QLDB](https://code.amazon.com/packages/QLDB/trees/mainline) / 
+
+**Others**
+1. [avro](https://avro.apache.org/), addresses schema evolution by interpreting provider-schema and consumer-schema separately.
+1. [arrow](https://arrow.apache.org/), eliminates serialization with zero-copy to gain performance.
+
 
 ## Course
 

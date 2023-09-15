@@ -18,8 +18,12 @@ categories: Language
 [words]: https://learningenglish.voanews.com/z/987
 [NatGeo]: https://www.youtube.com/user/nationalgeographic
 
-### vocabulary
+### need to ask
+1. to do
 
+### vocabulary
+1. curation [Everyone’s a Curator Now, When everything is “curated,” what does the word even mean?](https://www.nytimes.com/2020/03/03/style/curate-buzzword.html)
+1. But spending hours trawling through Airbnb to find a gem can be **a drag**. [link](https://thespaces.com/7-best-websites-for-modern-architecture-rentals/)
 1. barb:
 1. cosmopolite: "ctizen of the world," from kosmos "world" (see cosmos) + polites "citizen," from polis "city" (see polis).
 1. glitch

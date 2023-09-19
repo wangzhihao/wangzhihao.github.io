@@ -7,7 +7,11 @@ categories: her
 1. Enjoy it.
 1. 平等
 
+
 ## Psychology 
+
+### Reading
+1. https://www.nami.org/Blogs/NAMI-Blog/November-2021/What-to-Do-When-You-Love-Someone-with-Depression
 
 ### 她
 1. 对我而言，她比一切都重要，就像要回归大地一样。

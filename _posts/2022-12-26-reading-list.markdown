@@ -248,6 +248,7 @@ categories: Computer Science
 ### Introduction
 
 1. [Death](https://oyc.yale.edu/death/phil-176), by Shelly Kagan
+2. [Introduction to Psychology](https://oyc.yale.edu/NODE/231), by Paul Bloom
 1. [The Feynman Lectures on Physics](https://www.feynmanlectures.caltech.edu/)
 1. Principles of Economics N. Gregory Mankiw
 1. The Calculus Lifesaver: All the Tools You Need to Excel at Calculus [videos](https://vimeo.com/search?q=calculus+lifesaver)
